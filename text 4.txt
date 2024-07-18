@@ -1,0 +1,456 @@
+Console-Based-Calculator 
+
+Certificate of completion 
+
+This is to certify that
+
+Student1485831	BONFACE ONCHIEKU KEROSI
+Student1488107	VINCENT OMUSUNGU OMUSEE
+Student1485985	NELLY WANJIRU KNIGHT
+Student1485874	MARK GITHAE NGURARI
+
+
+has successfully designed, developed, and implemented a
+
+Console-Based Calculator
+
+as part of our programming coursework.
+
+The project includes the following features:
+
+	1.	Addition, subtraction, multiplication, and division operations
+	2.	Handling of invalid inputs with appropriate error message.
+	3.	User-friendly command-line interface
+	4.	Modular and well-documented code
+
+
+This certificate is awarded in recognition of the dedication, effort, and technical skills demonstrated in completing the project.
+
+Project Supervisor: Mr Kenneth Mathiu
+
+Completion Date: 17 July 2024
+
+Institution: Edulink International College 
+
+Signature:
+
+Supervisor Signature
+
+Table of Contents
+
+	1.	Certificate of Completion
+	2.	Table of Contents 
+	3.	Problem Definition 
+	4.	Algorithms 
+	5.	Task Sheet
+	6.	Project Review and Monitoring Report 
+	7.	Final Check List 
+
+
+PROBLEM DEFINITION 
+
+The primary objective of this project is to develop a console-based calculator that performs a wide range of arithmetic and mathematical operations. The calculator should be efficient, user-friendly, and capable of handling various mathematical functions, including trigonometric, exponential, and number theory operations. The application should continue to run until the user chooses to exit.
+
+ALGORITHMS
+
+	1.	Addition
+                      Input: Two numbers
+                      Process: Add the numbers
+                      Output: Result
+	2.	Subtraction
+                       Input: Two numbers
+                       Process: Subtract the second   number from the first
+                      Output: Result
+	3.	Multiplication
+                       Input: Two numbers
+                       Process: Multiply the numbers
+                      Output: Result
+	4.	Division
+                      Input: Two numbers
+                      Process: Divide the first number by the second
+                     Output: Result (Handle division by zero)
+
+	5.	Power        
+                     Input: Two numbers (base and    exponent)
+                     Process: Raise the base to the power of the exponent 
+                     Output: Result 
+
+	6.	Square
+                    Input: One number
+                    Process: Square the number
+                    Output: Result
+
+	7.	Cube
+                   Input: One number
+                   Process: Cube the number
+                  Output: Result
+
+	8.	Square Root
+                   Input: One number
+                   Process: Compute the square root of the number
+                  Output: Result
+
+	9.	Round
+                  Input: One number
+                  Process: Round the number to the nearest integer
+                 Output: Result
+
+	10.	Ceiling
+                  Input: One number
+                  Process: Find the smallest integer greater than or equal to the number
+                 Output: Result
+	11.	Floor
+                 Input: One number
+                 Process: Find the largest integer less than or equal to the number
+                Output: Result
+	12.	Min Value
+                Input: Two numbers
+                Process: Find the minimum of the two numbers
+                Output: Result
+	13.	Max Value
+                 Input: Two numbers
+                 Process: Find the maximum of the two numbers
+                Output: Result
+	14.	Sin
+                Input: One number (angle in degrees)
+                Process: Compute the sine of the angle
+               Output: Result
+	15.	Cos
+                Input: One number (angle in degrees)
+                Process: Compute the cosine of the angle
+                Output: Result
+	16.	Asin
+                 Input: One number
+                 Process: Compute the arcsine (in degrees)
+                  Output: Result
+	17.	Acos
+                   Input: One number
+                   Process: Compute the arccosine (in degrees)
+                   Output: Result
+	18.	Atan
+                  Input: One number
+                  Process: Compute the arctangent (in degrees)
+                 Output: Result
+	19.	Exponential
+                  Input: One number
+                  Process: Compute the exponential of the number
+                  Output: Result
+	20.	Palindrome
+                  Input: One number
+                  Process: Check if the number is a palindrome
+                  Output: Result
+	21.	Armstrong Number
+                  Input: One number
+                  Process: Check if the number is an Armstrong number
+                 Output: Result
+	22.	Prime Number
+                   Input: One number
+                   Process: Check if the number is prime
+                   Output: Result
+	23.	Average
+                   Input: List of numbers
+                   Process: Compute the average of the numbers
+                   Output: Result
+	24.	GCD
+                    Input: Two numbers
+                    Process: Compute the greatest common divisor of the two numbers
+                   Output: Result
+	25.	LCM
+                   Input: Two numbers
+                   Process: Compute the least common multiple of the two numbers
+                   Output: Result
+
+TASK SHEET
+
+Week 1: Research on console applications and planning
+
+Week 2: Implement basic arithmetic operations (addition, subtraction, multiplication, division)
+
+Week 3: Implement advanced functionalities (power, square, cube, square root)
+
+Week 4: Implement trigonometric functions and number theory operations (sin, cos, asin, acos, atan, exponential, palindrome, Armstrong, prime, average, GCD, LCM)
+
+Week 5: Testing and debugging
+
+Week 6: Final review, optimization, and documentation
+
+PROJECT REVIEW AND MONITORING REPORT 
+
+Week 1: Initial meeting with the team, set project goals
+
+Week 2:We reviewed basic operations, received feedback to improve user input handling
+
+Week 3:We Implemented feedback, added error handling for division by zero
+
+Week 4:We did extensive testing phase, identified and fixed bugs
+
+Week 5:We added advanced functionalities, received additional feedback
+
+Week 6:We did a final review, ensured all functionalities are working as expected
+
+
+FINAL CHECK LIST 
+
+   1.    Addition functionality implemented and tested
+	2.	 Subtraction functionality implemented and tested
+	3.	Multiplication functionality implemented and tested
+	4.	Division functionality implemented and tested
+	5.	Power functionality implemented and tested
+	6.	Square functionality implemented and tested
+	7.	Cube functionality implemented and tested
+	8.	Square root functionality implemented and tested
+	9.	Round functionality implemented and tested
+	10.	Ceiling functionality implemented and tested
+	11.	Floor functionality implemented and tested
+	12.	Min value functionality implemented and tested
+	13.	Max value functionality implemented and tested
+	14.	Sin functionality implemented and tested
+	15.	Cos functionality implemented and tested
+	16.	Asin functionality implemented and tested
+	17.	Acos functionality implemented and tested
+	18.	Atan functionality implemented and tested
+	19.	Exponential functionality implemented and tested
+	20.	 Palindrome functionality implemented and tested
+	21.	Armstrong number functionality implemented and tested
+	22.	Prime number functionality implemented and tested
+	23.	Average functionality implemented and tested
+	24.	GCD functionality implemented and tested
+	25.	LCM functionality implemented and tested
+	26.	Comprehensive testing and debugging completed
+	27.	Documentation completed
+
+Source Code
+
+import java.util.Scanner;
+
+public class ConsoleBasedCalculator {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            displayMenu();
+            System.out.print("Choose an option: ");
+            int choice = scanner.nextInt();
+
+            if (choice == 26) {
+                System.out.println("Exiting the calculator. Goodbye!");
+                break;
+            }
+
+            double a = 0, b = 0;
+            if (choice >= 1 && choice <= 5 || choice == 12 || choice == 13 || choice == 24 || choice == 25) {
+                System.out.print("Enter first number: ");
+                a = scanner.nextDouble();
+                System.out.print("Enter second number: ");
+                b = scanner.nextDouble();
+            } else if (choice >= 6 && choice <= 19 || choice >= 20 && choice <= 22) {
+                System.out.print("Enter a number: ");
+                a = scanner.nextDouble();
+            } else if (choice == 23) {
+                System.out.print("Enter the number of entries: ");
+                int numEntries = scanner.nextInt();
+                double[] entries = new double[numEntries];
+                for (int i = 0; i < numEntries; i++) {
+                    System.out.print("Enter number " + (i + 1) + ": ");
+                    entries[i] = scanner.nextDouble();
+                }
+                System.out.println("Result: " + average(entries));
+                continue;
+            } else {
+                System.out.println("Invalid option, please try again.");
+                continue;
+            }
+
+            switch (choice) {
+                case 1:
+                    System.out.println("Result: " + add(a, b));
+                    break;
+                case 2:
+                    System.out.println("Result: " + subtract(a, b));
+                    break;
+                case 3:
+                    System.out.println("Result: " + multiply(a, b));
+                    break;
+                case 4:
+                    System.out.println("Result: " + divide(a, b));
+                    break;
+                case 5:
+                    System.out.println("Result: " + power(a, b));
+                    break;
+                case 6:
+                    System.out.println("Result: " + square(a));
+                    break;
+                case 7:
+                    System.out.println("Result: " + cube(a));
+                    break;
+                case 8:
+                    System.out.println("Result: " + Math.sqrt(a));
+                    break;
+                case 9:
+                    System.out.println("Result: " + Math.round(a));
+                    break;
+                case 10:
+                    System.out.println("Result: " + Math.ceil(a));
+                    break;
+                case 11:
+                    System.out.println("Result: " + Math.floor(a));
+                    break;
+                case 12:
+                    System.out.println("Result: " + Math.min(a, b));
+                    break;
+                case 13:
+                    System.out.println("Result: " + Math.max(a, b));
+                    break;
+                case 14:
+                    System.out.println("Result: " + Math.sin(Math.toRadians(a)));
+                    break;
+                case 15:
+                    System.out.println("Result: " + Math.cos(Math.toRadians(a)));
+                    break;
+                case 16:
+                    System.out.println("Result: " + Math.toDegrees(Math.asin(a)));
+                    break;
+                case 17:
+                    System.out.println("Result: " + Math.toDegrees(Math.acos(a)));
+                    break;
+                case 18:
+                    System.out.println("Result: " + Math.toDegrees(Math.atan(a)));
+                    break;
+                case 19:
+                    System.out.println("Result: " + Math.exp(a));
+                    break;
+                case 20:
+                    System.out.println("Result: " + (isPalindrome((int) a) ? "Palindrome" : "Not Palindrome"));
+                    break;
+                case 21:
+                    System.out.println("Result: " + (isArmstrong((int) a) ? "Armstrong" : "Not Armstrong"));
+                    break;
+                case 22:
+                    System.out.println("Result: " + (isPrime((int) a) ? "Prime" : "Not Prime"));
+                    break;
+                case 24:
+                    System.out.println("Result: " + gcd((int) a, (int) b));
+                    break;
+                case 25:
+                    System.out.println("Result: " + lcm((int) a, (int) b));
+                    break;
+                default:
+                    System.out.println("Invalid option, please try again.");
+                    break;
+            }
+        }
+
+        scanner.close();
+    }
+
+    public static void displayMenu() {
+        System.out.println("\nConsole-based Calculator");
+        System.out.println("1. Addition");
+        System.out.println("2. Subtraction");
+        System.out.println("3. Multiplication");
+        System.out.println("4. Division");
+        System.out.println("5. Power");
+        System.out.println("6. Square");
+        System.out.println("7. Cube");
+        System.out.println("8. Square Root");
+        System.out.println("9. Round");
+        System.out.println("10. Ceiling");
+        System.out.println("11. Floor");
+        System.out.println("12. Min Value");
+        System.out.println("13. Max Value");
+        System.out.println("14. Sin");
+        System.out.println("15. Cos");
+        System.out.println("16. Asin");
+        System.out.println("17. Acos");
+        System.out.println("18. Atan");
+        System.out.println("19. Exponential");
+        System.out.println("20. Palindrome");
+        System.out.println("21. Armstrong Number");
+        System.out.println("22. Prime Number");
+        System.out.println("23. Average");
+        System.out.println("24. GCD");
+        System.out.println("25. LCM");
+        System.out.println("26. Exit");
+    }
+
+    public static double add(double a, double b) {
+        return a + b;
+    }
+
+    public static double subtract(double a, double b) {
+        return a - b;
+    }
+
+    public static double multiply(double a, double b) {
+        return a * b;
+    }
+
+    public static double divide(double a, double b) {
+        if (b == 0) {
+            System.out.println("Error: Division by zero");
+            return 0;
+        }
+        return a / b;
+    }
+
+    public static double power(double a, double b) {
+        return Math.pow(a, b);
+    }
+
+    public static double square(double a) {
+        return a * a;
+    }
+
+    public static double cube(double a) {
+        return a * a * a;
+    }
+
+    public static boolean isPalindrome(int n) {
+        int original = n, reverse = 0;
+        while (n != 0) {
+            reverse = reverse * 10 + n % 10;
+            n /= 10;
+        }
+        return original == reverse;
+    }
+
+    public static boolean isArmstrong(int n) {
+        int original = n, sum = 0, digits = String.valueOf(n).length();
+        while (n != 0) {
+            sum += Math.pow(n % 10, digits);
+            n /= 10;
+        }
+        return original == sum;
+    }
+
+    public static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+
+    public static double average(double[] nums) {
+        double sum = 0;
+        for (double num : nums) {
+            sum += num;
+        }
+        return sum / nums.length;
+    }
+
+    public static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+
+    public static int lcm(int a, int b) {
+        return Math.abs(a * b) / gcd(a, b);
+    }
+}
+
